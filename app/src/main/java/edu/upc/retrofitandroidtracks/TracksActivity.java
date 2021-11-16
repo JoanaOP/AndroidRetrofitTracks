@@ -25,7 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class TracksActivity extends AppCompatActivity {
 
-    static final String BASE_URL = "http://localhost:8080/dsaApp/";
+    static final String BASE_URL = "http://10.0.2.2:8080/dsaApp/";
     TracksAPI tracksAPI;
 
     public EditText titleText;
